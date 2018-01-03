@@ -1,4 +1,4 @@
-FROM docker
+FROM docker:git
 
 RUN apk add --update \
     groff \
